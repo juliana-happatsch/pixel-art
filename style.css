@@ -1,0 +1,60 @@
+/** GENERAL **/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('imagens/background.png');
+  text-align: center;
+}
+
+a {
+  color: rgb(241, 229, 58);
+  text-decoration: none;
+}
+
+h1 {
+  font-family: VT323, monospace;
+  font-size: 90px;
+  font-weight: 200;
+  margin: 20px;
+  text-shadow: 1px 2px 2px rgba(68, 68, 68, 0.623);
+}
+
+button , input {
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+/** COLOR OPTIONS **/
+.color {
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-shadow: 2px 1px 1px rgba(68, 68, 68, 0.486);
+  cursor: pointer;
+}
+
+/** PIXEL BOARD **/
+#pixel-board {
+  display: table;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.pixel {
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pixel-row {
+  display: table-row;
+}
